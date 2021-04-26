@@ -5,7 +5,7 @@ import {Network} from '../types/identity';
   providedIn: 'root'
 })
 export class GlobalVarsService {
-  static fullAccessHostnames = ['bitclout.com', 'bitclout.green'];
+  static fullAccessHostnames = ['vexio.xyz', 'bitclout.com'];
   static noAccessHostnames = [''];
 
   network = Network.mainnet;

@@ -24,7 +24,7 @@ header @html Cache-Control no-store
 header @html Content-Security-Policy "
   default-src 'self';
   connect-src
-    http://localhost:17001/get-users-stateless
+    https://api.vexio.xyz/get-users-stateless
     https://api.bitpop.dev/get-users-stateless
     https://api.bitclout.com/get-users-stateless
     https://api.bitclout.green/get-users-stateless

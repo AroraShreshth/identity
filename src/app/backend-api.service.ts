@@ -6,7 +6,7 @@ import {Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class BackendAPIService {
-  endpoint = 'https://api.bitclout.com';
+  endpoint = 'https://api.vexio.xyz';
 
   constructor(
     private httpClient: HttpClient,
